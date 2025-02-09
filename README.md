@@ -1,29 +1,49 @@
-# financialControl
+# Expense Tracker
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+## Sobre o Projeto
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+O Expense Tracker é uma aplicação web simples para controle de finanças pessoais. Com ele, é possível adicionar receitas e despesas, visualizar o saldo atual e acompanhar um histórico de transações.
 
-## Customize configuration
+## Tecnologias Utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+* Vue 3
+* Vite
+* Vuetify
 
-## Project Setup
+## Layout
 
-```sh
-npm install
-```
+A interface é simples e intuitiva, apresentando:
 
-### Compile and Hot-Reload for Development
+* Saldo total atualizado automaticamente.
+* Destaque para valores positivos (verde) e negativos (vermelho).
+* Lista de transações com histórico detalhado.
+* Campo de entrada para adicionar novas transações.
 
-```sh
-npm run dev
-```
+## Como Executar o Projeto
 
-### Compile and Minify for Production
+1. Clone o Repositório
 
-```sh
-npm run build
-```
+    git clone https://github.com/JoaoGomesDev32/financialControl.git
+    cd financialControl
+
+2. Instale as Dependências
+
+    npm install
+
+3. Rode o Projeto
+
+    npm run dev
+
+## Funcionalidades
+
+* Adicionar transações (despesas e receitas).
+* Cálculo automático do saldo atual.
+* Visualização gráfica dos valores.
+* Interface responsiva e moderna.
+
+## Licença
+
+Este projeto está sob a licença MIT.
+
+Desenvolvido por João Silva
