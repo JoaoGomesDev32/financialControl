@@ -1,6 +1,12 @@
 <template>
-    <h4>Your Balance</h4>
-    <h1 id="balance">${{ total }}</h1>
+    <VCard>
+        <VCardTitle>
+            <h4>Your Balance</h4>
+        </VCardTitle>
+        <VCardText>
+            <h1 id="balance">€{{ total.toFixed(2) }}</h1>
+        </VCardText>
+    </VCard>
 </template>
 
 <script setup>

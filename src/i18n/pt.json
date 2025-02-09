@@ -1,0 +1,28 @@
+{
+    "header": {
+      "title": "Controle Financeiro",
+      "subtitle": "Gerencie suas finanças de forma eficiente"
+    },
+    "balance": {
+      "total": "Total",
+      "currentBalance": "Saldo Atual"
+    },
+    "incomeExpenses": {
+      "income": "Renda",
+      "expenses": "Despesas"
+    },
+    "transactionList": {
+      "title": "Lista de Transações",
+      "noTransactions": "Nenhuma transação encontrada"
+    },
+    "addTransaction": {
+      "title": "Adicionar Transação",
+      "textLabel": "Descrição",
+      "amountLabel": "Valor",
+      "submitButton": "Adicionar"
+    },
+    "notifications": {
+      "transactionAdded": "Transação adicionada com sucesso",
+      "transactionDeleted": "Transação excluída com sucesso"
+    }
+  }
