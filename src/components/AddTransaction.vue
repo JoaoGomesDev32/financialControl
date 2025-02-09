@@ -1,9 +1,9 @@
 <template>
   <h3>Add new transaction</h3>
-  <form id="form" @submit.prevent="onSubmit">
+  <VForm id="form" @submit.prevent="onSubmit">
     <div class="form-control">
       <label for="text">Text</label>
-      <input type="text" id="text"
+      <VTextField type="text" id="text"
       v-model="text" 
       placeholder="Enter text..." 
       />
@@ -13,7 +13,7 @@
       >Amount <br />
       (negative - expense, positive - income)</label
       >
-      <input
+      <VTextField
       type="text"
       id="amount"
       v-model="amount"
@@ -21,7 +21,7 @@
       />
     </div>
     <button class="btn">Add transaction</button>
-  </form>
+  </VForm>
 </template>
 
 <script setup>

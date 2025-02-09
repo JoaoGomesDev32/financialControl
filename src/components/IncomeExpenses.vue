@@ -1,13 +1,13 @@
 <template>
   <div class="inc-exp-container">
-    <div>
+    <VCardTitle>
       <h4>Income</h4>
-      <p id="money-plus" class="money plus">+${{ income }}</p>
-    </div>
-    <div>
+      <p id="money-plus" class="money plus">+€{{ income }}</p>
+    </VCardTitle>
+    <VCardTitle>
       <h4>Expense</h4>
-      <p id="money-minus" class="money minus">-${{ expenses }}</p>
-    </div>
+      <p id="money-minus" class="money minus">-€{{ Math.abs(expenses) }}</p>
+    </VCardTitle>
   </div>
 </template>
 

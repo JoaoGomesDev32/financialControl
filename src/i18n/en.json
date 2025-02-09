@@ -1,0 +1,26 @@
+{
+    "app": {
+      "title": "Financial Control",
+      "description": "Manage your finances effectively."
+    },
+    "transactions": {
+      "add": "Add Transaction",
+      "delete": "Delete Transaction",
+      "list": "Transaction List",
+      "noTransactions": "No transactions available."
+    },
+    "balance": {
+      "total": "Total Balance",
+      "income": "Income",
+      "expenses": "Expenses"
+    },
+    "form": {
+      "text": "Transaction Description",
+      "amount": "Transaction Amount",
+      "submit": "Submit"
+    },
+    "messages": {
+      "transactionAdded": "Transaction added successfully.",
+      "transactionDeleted": "Transaction deleted successfully."
+    }
+  }
